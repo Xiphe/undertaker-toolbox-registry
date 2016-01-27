@@ -1,0 +1,16 @@
+{
+  "name": "undertaker-toolbox-registry",
+  "version": "0.0.0",
+  "description": "undertaker registry for toolboxes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "registry",
+    "gulp",
+    "undertaker"
+  ],
+  "author": "Hannes Diercks <undertaker-toolbox-registry@xiphe.net>",
+  "license": "MIT"
+}
