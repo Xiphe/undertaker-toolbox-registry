@@ -12,5 +12,8 @@
     "undertaker"
   ],
   "author": "Hannes Diercks <undertaker-toolbox-registry@xiphe.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "undertaker-registry": "^1.0.0"
+  }
 }
