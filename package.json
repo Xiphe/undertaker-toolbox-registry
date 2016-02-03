@@ -14,6 +14,6 @@
   "author": "Hannes Diercks <undertaker-task-provider-registry@xiphe.net>",
   "license": "MIT",
   "dependencies": {
-    "undertaker-registry": "^1.0.0"
+    "undertaker-registry": "1.0.0"
   }
 }
