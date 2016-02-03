@@ -1,5 +1,5 @@
 {
-  "name": "undertaker-toolbox-registry",
+  "name": "undertaker-task-provider-registry",
   "version": "0.0.0",
   "description": "extendible undertaker registry for task containers",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "gulp",
     "undertaker"
   ],
-  "author": "Hannes Diercks <undertaker-toolbox-registry@xiphe.net>",
+  "author": "Hannes Diercks <undertaker-task-provider-registry@xiphe.net>",
   "license": "MIT",
   "dependencies": {
     "undertaker-registry": "^1.0.0"
