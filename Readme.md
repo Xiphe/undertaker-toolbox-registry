@@ -1,7 +1,7 @@
 undertaker-task-provider-registry
 ---------------------------------
 
-extendible undertaker registry for task containers
+extendible [undertaker](https://github.com/gulpjs/undertaker) registry for task containers
 
 
 Install
