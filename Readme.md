@@ -1,6 +1,8 @@
 undertaker-task-provider-registry
 ---------------------------------
 
+[![Build Status](https://img.shields.io/travis/Xiphe/undertaker-task-provider-registry/master.svg?style=flat-square)](https://travis-ci.org/Xiphe/undertaker-task-provider-registry)
+
 extendible [undertaker](https://github.com/gulpjs/undertaker) registry for task containers
 
 
