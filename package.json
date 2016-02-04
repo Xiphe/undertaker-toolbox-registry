@@ -1,10 +1,10 @@
 {
   "name": "undertaker-task-provider-registry",
-  "version": "0.0.0",
   "description": "extendible undertaker registry for task containers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "registry",
@@ -15,5 +15,12 @@
   "license": "MIT",
   "dependencies": {
     "undertaker-registry": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xiphe/undertaker-task-provider-registry.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
   }
 }
