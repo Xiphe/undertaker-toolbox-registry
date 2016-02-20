@@ -81,7 +81,7 @@ undertaker.registry(new TaksProviderRegistry({
 const task = undertaker.task('foo');
 
 task();
-// logs "bar"
+// logs "Hello World"
 ```
 
 
