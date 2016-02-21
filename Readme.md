@@ -17,8 +17,8 @@ Install
 Use Providers
 -------------
 
- - A task Provider must implement a `getTask` method
- - The `getTask` method must return a function
+ - A task Provider must implement a `get` method
+ - The `get` method must return a function
  - This function is then registered as an undertaker task
 
 _This alone is simply over-engineering and misuse of the factory pattern.
@@ -30,7 +30,7 @@ const TaksProviderRegistry = require('undertaker-task-provider-registry');
 undertaker.registry(new TaksProviderRegistry({
   plugins: [],
   providers: [{
-    getTask() {
+    get() {
       return function foo() {
         console.log('bar');
       };
@@ -70,7 +70,7 @@ undertaker.registry(new TaksProviderRegistry({
     }
   }],
   providers: [{
-    getTask(helper) {
+    get(helper) {
       return function foo() {
         console.log(helper.logMe || 'bar');
       };
@@ -108,7 +108,7 @@ use for provider specific preparations
 ### `decorateHelper({helper, provider})`
 
  - helper holds `takerInst.series` and `takerInst.parallel` by default
- - helper will be passed into the providers getTask method
+ - helper will be passed into the providers get method
 
 use to expose methods that should be available inside every task factory 
 
