@@ -21,6 +21,8 @@
     "url": "https://github.com/Xiphe/undertaker-task-provider-registry.git"
   },
   "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
     "semantic-release": "^4.3.5"
   }
 }
