@@ -44,6 +44,12 @@ task();
 // logs "bar"
 ```
 
+### NO_TASK provider
+
+if for some reason a provider can not provide a task,
+return `TaksProviderRegistry.NO_TASK` in providers `get`
+method.
+
 
 Use plugins
 -----------
